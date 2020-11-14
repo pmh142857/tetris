@@ -23,7 +23,7 @@ class Tetris:
     def __init__(self, parent):
         self.debug = 'debug' in sys.argv[1:]
         self.random = 'random' in sys.argv[1:]
-        parent.title('Tetris')
+        parent.title('Game Tetris')
         self.parent = parent
         self.board_width = 10
         self.board_height = 24
